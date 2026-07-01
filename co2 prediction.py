@@ -8,14 +8,6 @@ from sklearn.model_selection import train_test_split
 
 import matplotlib.pyplot as plt
 
-# def Show_plot(y_test, color= 'blue'):
-#     plt.scatter(x_test.engine, y_test, color= 'blue')
-#     plt.xlabel('1 = Engine')
-#     plt.ylabel('CO2 production')
-#     plt.title('CO2 \'Engine\'')
-#     plt.show()
-
-
 
 df = pd.read_csv('co2.csv')
 
@@ -46,26 +38,12 @@ plt.ylabel('CO2 production')
 plt.title('CO2 \'Engine\'')
 plt.show()
 
-# plt.scatter(x_test.engine, y_test, color= 'blue')
-# plt.plot(x_test.engine, out_pred, color= 'black', linewidth=2)
-# plt.xlabel('1 = Engine')
-# plt.ylabel('CO2 production')
-# plt.title('CO2 \'Engine\'')
-# plt.show()
-
 
 plt.scatter(x_test.cylandr, y_test, color= 'red')
 plt.xlabel('2 = cylandr')
 plt.ylabel('CO2 production')
 plt.title('CO2 \'cylandr\'')
 plt.show()
-
-# plt.scatter(x_test.cylandr, y_test, color= 'red')
-# plt.plot(x_test.cylandr, out_pred, color= 'black', linewidth=2)
-# plt.xlabel('2 = cylandr')
-# plt.ylabel('CO2 production')
-# plt.title('CO2 \'cylandr\'')
-# plt.show()
 
 
 plt.scatter(x_test.fuelcomb, y_test, color= 'green')
@@ -74,16 +52,6 @@ plt.ylabel('CO2 production')
 plt.title('CO2 \'Fuelcomb\'')
 plt.show()
 
-# plt.scatter(x_test.fuelcomb, y_test, color= 'green')
-# plt.plot(x_test.fuelcomb, out_pred, color= 'black', linewidth=2)
-# plt.xlabel('3 = Fuelcomb')
-# plt.ylabel('CO2 production')
-# plt.title('CO2 \'Fuelcomb\'')
-# plt.show()
-
-
-# print(x_test, y_test)
-# print(out_pred)
 
 p206 = np.array([[1.36, 4, 5]])
 co2 = reg_linear.predict(p206)
