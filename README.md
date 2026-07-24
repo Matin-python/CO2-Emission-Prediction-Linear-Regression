@@ -166,6 +166,16 @@ The project generates several plots:
 * Fuel Consumption vs CO₂ Emission
 * Actual vs Predicted CO₂ Emission
 
+## Related Project
+
+This project also has a Deep Learning implementation using TensorFlow/Keras.
+
+If you'd like to compare the performance of a traditional Machine Learning model with a Neural Network on the same dataset, check out:
+
+➡️ CO₂ Emission Prediction using Deep Learning
+
+[https://github.com/Matin-python/PLC-Communication-Manual-Modbus-ASCII](https://github.com/Matin-python/CO2-Emission-Prediction-Deep-Learning)
+
 ## Future Improvements
 
 * Add support for multiple regression models
