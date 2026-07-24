@@ -174,7 +174,7 @@ If you'd like to compare the performance of a traditional Machine Learning model
 
 ➡️ CO₂ Emission Prediction using Deep Learning
 
-[https://github.com/Matin-python/PLC-Communication-Manual-Modbus-ASCII](https://github.com/Matin-python/CO2-Emission-Prediction-Deep-Learning)
+[https://github.com/Matin-python/CO2-Emission-Prediction-Deep-Learning](https://github.com/Matin-python/CO2-Emission-Prediction-Deep-Learning)
 
 ## Future Improvements
 
