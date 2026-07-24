@@ -166,15 +166,29 @@ The project generates several plots:
 * Fuel Consumption vs CO₂ Emission
 * Actual vs Predicted CO₂ Emission
 
-## Related Project
+## Related Projects
 
-This project also has a Deep Learning implementation using TensorFlow/Keras.
+This project is part of a series exploring different approaches to CO₂ emission prediction.
 
-If you'd like to compare the performance of a traditional Machine Learning model with a Neural Network on the same dataset, check out:
+### 🧠 CO₂ Emission Prediction using Deep Learning
 
-➡️ CO₂ Emission Prediction using Deep Learning
+A neural network implementation built with TensorFlow/Keras that predicts CO₂ emissions using a larger and more complex dataset.
 
-[https://github.com/Matin-python/CO2-Emission-Prediction-Deep-Learning](https://github.com/Matin-python/CO2-Emission-Prediction-Deep-Learning)
+**Key differences:**
+
+| Linear Regression | Deep Learning |
+|-------------------|---------------|
+| Machine Learning approach | Deep Learning approach |
+| Linear Regression (scikit-learn) | Neural Network (TensorFlow/Keras) |
+| 500 samples | 7,300+ samples |
+| 3 input features | 5 input features |
+| Simple linear model | Multi-layer neural network |
+| Fast training | Longer training time |
+| Easy to interpret | Higher modeling capacity |
+
+The Deep Learning version demonstrates how neural networks can learn more complex relationships from larger datasets compared to traditional machine learning models.
+
+➡️ **Repository:** [https://github.com/Matin-python/CO2-Emission-Prediction-Deep-Learning](https://github.com/Matin-python/CO2-Emission-Prediction-Deep-Learning)
 
 ## Future Improvements
 
